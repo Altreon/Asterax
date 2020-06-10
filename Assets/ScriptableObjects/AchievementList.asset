@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 168394f063bfd604190e28092e0042fd, type: 3}
+  m_Name: AchievementList
+  m_EditorClassIdentifier: 
+  achievements:
+  - name: FIRST DUST
+    description: Shot Your First Asteroid
+    stepType: 0
+    stepCount: 1
+    unlockablePart: {fileID: 0}
+    complete: 1
+    unlockCosmeticType: 0
+    unlockCosmeticId: 1
+  - name: LUCKY SHOT
+    description: Bullet Wrapped Screen & Hit Asteroid
+    stepType: 1
+    stepCount: 1
+    unlockablePart: {fileID: 0}
+    complete: 0
+    unlockCosmeticType: 1
+    unlockCosmeticId: 1
+  - name: TRIGGER HAPPY
+    description: '# Shots Fired'
+    stepType: 2
+    stepCount: 1000
+    unlockablePart: {fileID: 0}
+    complete: 0
+    unlockCosmeticType: 0
+    unlockCosmeticId: 2
+  - name: ROOKIE PILOT
+    description: 'Score Above #'
+    stepType: 3
+    stepCount: 10000
+    unlockablePart: {fileID: 0}
+    complete: 0
+    unlockCosmeticType: 1
+    unlockCosmeticId: 2
+  - name: EAGLE EYE
+    description: '# Lucky Shots'
+    stepType: 1
+    stepCount: 100
+    unlockablePart: {fileID: 0}
+    complete: 0
+    unlockCosmeticType: 0
+    unlockCosmeticId: 3
+  - name: SKILLFUL DODGER
+    description: 'Reach Level #'
+    stepType: 4
+    stepCount: 5
+    unlockablePart: {fileID: 0}
+    complete: 0
+    unlockCosmeticType: 1
+    unlockCosmeticId: 3
+  highScoreAchievementName: High Score!
+  highScoreAchievementDescription: You've achieved a new high score
